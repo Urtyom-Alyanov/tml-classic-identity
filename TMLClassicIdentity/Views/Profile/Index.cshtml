@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Профиль";
+    ViewData["NavigatorPage"] = PageEnum.Profile;
+    Layout = "_LayoutProfile";
+}
+<div class="aspect-[24/3] bg-center bg-cover p-2 flex items-center justify-center rounded-lg" style="background-image: url(https://sun1-14.userapi.com/s/v1/ig2/idu7DDPz8ZAoa00Ua2MasaTqj2my-hhIwfLmViy0FpmPcSWnC1vGA1Wjf7tjB9Y6tyId-c6vgdVDWU9_XmnHiiOA.jpg?size=200x200&quality=95&crop=0,152,800,800&ava=1);">
+    <div class="flex bg-[#ffffffbb] rounded-lg p-2 backdrop-blur-sm items-center flex-col">
+        <img class="h-24 w-24 rounded-full" src="https://sun1-14.userapi.com/s/v1/ig2/idu7DDPz8ZAoa00Ua2MasaTqj2my-hhIwfLmViy0FpmPcSWnC1vGA1Wjf7tjB9Y6tyId-c6vgdVDWU9_XmnHiiOA.jpg?size=200x200&quality=95&crop=0,152,800,800&ava=1" />
+        <p class="text-lg font-semibold" id="acc_name">Артём Клочков</p>
+        <p class="text-gray-400 flex items-center gap-1 text-sm">
+            <a>ID: 2 </a>
+            <svg viewBox="0 0 16 16" width="16" height="16" class="fill-[#5c1fb8]" style="display: block;"><path fill-rule="evenodd" d="M1.827 2.638C1.5 3.28 1.5 4.12 1.5 5.8v3c0 1.12 0 1.68.218 2.108a2 2 0 0 0 .874.874c.122.062.255.107.408.138V5.7c0-1.12 0-1.68.218-2.108a2 2 0 0 1 .874-.874C4.52 2.5 5.08 2.5 6.2 2.5h5.22a1.593 1.593 0 0 0-.138-.408 2 2 0 0 0-.874-.874C9.98 1 9.42 1 8.3 1h-2c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311ZM7.7 5.5h3.6c.585 0 .933.001 1.191.022.158.013.224.03.242.036a.5.5 0 0 1 .21.209c.005.018.022.084.035.242.02.258.022.606.022 1.191v4.6c0 .585-.001.933-.022 1.191-.013.158-.03.224-.036.242a.5.5 0 0 1-.209.21 1.253 1.253 0 0 1-.242.035c-.258.02-.606.022-1.191.022H7.7c-.585 0-.933-.001-1.191-.022a1.252 1.252 0 0 1-.242-.036.5.5 0 0 1-.21-.209 1.255 1.255 0 0 1-.035-.242C6.002 12.733 6 12.385 6 11.8V7.2c0-.585.001-.933.022-1.191.013-.158.03-.224.036-.242a.5.5 0 0 1 .209-.21c.018-.005.084-.022.242-.035.258-.02.606-.022 1.191-.022Zm5.038.06-.003-.002.003.001Zm.203.202v.003-.003Zm0 7.473v.003-.003Zm-.203.206h-.003.003Zm-6.473 0h-.003.003Zm-.206-.203v-.003.003Zm0-7.473v-.003.002Zm.203-.206h.003-.003ZM4.5 7.2c0-1.12 0-1.68.218-2.108a2 2 0 0 1 .874-.874C6.02 4 6.58 4 7.7 4h3.6c1.12 0 1.68 0 2.108.218a2 2 0 0 1 .874.874c.218.428.218.988.218 2.108v4.6c0 1.12 0 1.68-.218 2.108a2 2 0 0 1-.874.874C12.98 15 12.42 15 11.3 15H7.7c-1.12 0-1.68 0-2.108-.218a2 2 0 0 1-.874-.874C4.5 13.48 4.5 12.92 4.5 11.8V7.2Z" clip-rule="evenodd"></path></svg>
+        </p>
+    </div>
+</div>
+<div class="grid grid-cols-2 gap-4 mt-4">
+    <div>
+        <p class="mb-1 text-gray-400">Никнейм<a class="text-[#FF5630]">*</a></p>
+        <label class="flex bg-gray-50 border-2 border-gray-100 p-2 rounded-lg border-solid">
+            <input placeholder="Никнейм" onchange="editName(this);" value="Артём Клочков" class="w-full bg-transparent focus:outline-none" />
+        </label>
+    </div>
+    <div>
+        <p class="mb-1 text-gray-400">Тэг<a class="text-[#FF5630]">*</a></p>
+        <label class="flex bg-gray-50 border-2 border-gray-100 p-2 rounded-lg border-solid">
+            <p>@@</p>
+            <input placeholder="Тэг" value="proletarius_official" class="w-full bg-transparent focus:outline-none" />
+        </label>
+    </div>
+</div>
+<script lang="js">
+    function editName(e) {
+        const element = document.getElementById("acc_name");
+        element.innerHTML = e.value;
+    }
+</script>

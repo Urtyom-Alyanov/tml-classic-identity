@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="grid grid-cols-5 gap-4">
+    <component type="typeof(Navigator)" render-mode="ServerPrerendered" param-CurrentPage="@ViewData["NavigatorPage"]" />
+    <div class="col-span-4">
+        <div class="rounded-lg bg-white shadow-sm border-gray-100 border-2 border-solid p-4">
+            @RenderBody()
+        </div>
+    </div>
+</div>

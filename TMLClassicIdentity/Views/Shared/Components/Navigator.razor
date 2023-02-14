@@ -1,0 +1,46 @@
+﻿
+<div>
+    <div class="flex flex-col gap-2">
+        <PageTitleBlock Title="@(
+                CurrentPage == PageEnum.Profile ?
+            "Профиль" :
+                CurrentPage == PageEnum.Security ?
+            "Безопасность" :
+                CurrentPage == PageEnum.Apps ?
+            "Приложения" :
+            ""
+        )">
+            <Icon>
+                @if (CurrentPage == PageEnum.Profile) {
+                    <ProfileIcon IsBig />
+                } else if (CurrentPage == PageEnum.Security) {
+                    <SecurityIcon IsBig />
+                } else if (CurrentPage == PageEnum.Apps) {
+                    <AppIcon IsBig />
+                }
+            </Icon>
+        </PageTitleBlock>
+        <div class="rounded-lg bg-white shadow-sm border-gray-100 border-2 flex flex-col border-solid  p-2">
+            <NavigatorButton IsCurrentPage="@(CurrentPage == PageEnum.Profile)" Text="Профиль">
+                <Icon>
+                    <ProfileIcon IsCurrentPage="@(CurrentPage == PageEnum.Profile)" />
+                </Icon>
+            </NavigatorButton>
+            <NavigatorButton Text="Безопасность" IsCurrentPage="(CurrentPage == PageEnum.Security)">
+                <Icon>
+                    <SecurityIcon IsCurrentPage="@(CurrentPage == PageEnum.Security)" />
+                </Icon>
+            </NavigatorButton>
+            <NavigatorButton Text="Внешние сервисы" IsCurrentPage="(CurrentPage == PageEnum.Apps)">
+                <Icon>
+                    <AppIcon IsCurrentPage="@(CurrentPage == PageEnum.Apps)" />
+                </Icon>
+            </NavigatorButton>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public PageEnum CurrentPage { get; set; } = PageEnum.Profile;
+}

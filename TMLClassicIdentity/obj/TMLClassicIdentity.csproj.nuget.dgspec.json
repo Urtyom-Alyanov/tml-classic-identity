@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"

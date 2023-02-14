@@ -9,9 +9,12 @@
     <meta name="description" content="description here" />
     <meta name="keywords" content="keywords,here" />
     <link rel="stylesheet" href="~/css/output.css" />
+    <base href="~/" />
+    <component type="typeof(Microsoft.AspNetCore.Components.Web.HeadOutlet)" 
+        render-mode="ServerPrerendered" />
 </head>
 
-<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+<body class="bg-gray-50 font-sans leading-normal tracking-normal">
 
     <nav id="header" class="fixed w-full z-10 top-0">
         <div class="h-16 w-full bg-[#ffffffbb] shadow-sm">
@@ -42,6 +45,7 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
+    <script src="_framework/blazor.server.js"></script>
 
     <script>
         /* Progress bar */

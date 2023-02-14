@@ -1,0 +1,12 @@
+﻿<div class="rounded-lg bg-gradient-to-r from-[#ae9acd] items-center font-semibold to-[#6bbbe0] shadow-sm p-2 text-white flex justify-between">
+    @Icon
+    <div>@Title</div>
+    <div class="h-8 w-8"></div>
+</div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public RenderFragment? Icon { get; set; }
+}

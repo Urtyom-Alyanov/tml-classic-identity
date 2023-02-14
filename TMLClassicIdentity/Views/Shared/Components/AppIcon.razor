@@ -1,0 +1,13 @@
+﻿<svg class="@(IsBig ? "h-8 w-8" : "h-6 w-6") @(IsBig ? "fill-white" : IsCurrentPage ? "fill-[#5c1fb8]" : "fill-[#68707d]")" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166.47 192.22">
+    <path d="M83.24,0L0,48.06v96.11l83.24,48.06,83.24-48.06V48.06L83.24,0Zm74.04,138.86l-74.04,42.75L9.19,138.86V53.36L83.24,10.62l74.04,42.75v85.5Z" />
+    <path d="M32.93,125.16l50.31,29.04,50.31-29.04v-58.09l-50.31-29.04-50.31,29.04v58.09Zm7-54.05l43.31-25,43.31,25v50.01l-43.31,25-43.31-25v-50.01Z" />
+    <polygon points="117.47 76.34 83.24 56.58 49 76.34 49 115.88 83.24 135.65 117.47 115.88 117.47 76.34" />
+</svg>
+
+@code {
+    [Parameter]
+    public bool IsCurrentPage { get; set; }
+
+    [Parameter]
+    public bool IsBig { get; set; }
+}

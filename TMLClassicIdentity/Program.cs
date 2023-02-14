@@ -2,6 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddServerSideBlazor(); // Да-да я сумсшедший
 
 var app = builder.Build();
 
@@ -22,6 +23,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Profile}/{action=Index}/{id?}");
+app.MapBlazorHub();
 
 app.Run();

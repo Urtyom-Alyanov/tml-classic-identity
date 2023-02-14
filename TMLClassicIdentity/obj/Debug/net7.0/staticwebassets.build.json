@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9R6CFI6scqolrGhqVE3ku8UmhLW8V4WeSf/iuk34TRg=",
+  "Hash": "x8L/toAvltX5HKvusEfXAe6/3/fLrPBwUmuETw9msxw=",
   "Source": "TMLClassicIdentity",
   "BasePath": "_content/TMLClassicIdentity",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TMLClassicIdentity.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\apps-tmlcid.svg",
+      "SourceId": "TMLClassicIdentity",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\",
+      "BasePath": "_content/TMLClassicIdentity",
+      "RelativePath": "apps-tmlcid.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\apps-tmlcid.svg"
     },
     {
       "Identity": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\css\\output.css",
@@ -117,6 +134,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\profile-tmlcid.svg",
+      "SourceId": "TMLClassicIdentity",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\",
+      "BasePath": "_content/TMLClassicIdentity",
+      "RelativePath": "profile-tmlcid.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile-tmlcid.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\security-tmlcid.svg",
+      "SourceId": "TMLClassicIdentity",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\",
+      "BasePath": "_content/TMLClassicIdentity",
+      "RelativePath": "security-tmlcid.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\security-tmlcid.svg"
     },
     {
       "Identity": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\tml-identity.svg",

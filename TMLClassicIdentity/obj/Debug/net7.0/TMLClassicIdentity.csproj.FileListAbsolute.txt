@@ -65,3 +65,7 @@ C:\Users\Уртём\source\repos\TMLClassicIdentity\TMLClassicIdentity\obj\Debug
 C:\Users\Уртём\source\repos\TMLClassicIdentity\TMLClassicIdentity\obj\Debug\net7.0\TMLClassicIdentity.pdb
 C:\Users\Уртём\source\repos\TMLClassicIdentity\TMLClassicIdentity\obj\Debug\net7.0\TMLClassicIdentity.genruntimeconfig.cache
 C:\Users\Уртём\source\repos\TMLClassicIdentity\TMLClassicIdentity\obj\Debug\net7.0\ref\TMLClassicIdentity.dll
+C:\Users\Уртём\source\repos\TMLClassicIdentity\TMLClassicIdentity\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Уртём\source\repos\TMLClassicIdentity\TMLClassicIdentity\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Уртём\source\repos\TMLClassicIdentity\TMLClassicIdentity\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Уртём\source\repos\TMLClassicIdentity\TMLClassicIdentity\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

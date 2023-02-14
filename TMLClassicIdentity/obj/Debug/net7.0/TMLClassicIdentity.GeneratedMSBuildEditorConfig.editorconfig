@@ -16,12 +16,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Уртём\source\repos\TMLClassicIdentity\TMLClassicIdentity
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Уртём/source/repos/TMLClassicIdentity/TMLClassicIdentity/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/Уртём/source/repos/TMLClassicIdentity/TMLClassicIdentity/Views/Shared/Components/AppIcon.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQXBwSWNvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Уртём/source/repos/TMLClassicIdentity/TMLClassicIdentity/Views/Shared/Components/Navigator.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2aWdhdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Уртём/source/repos/TMLClassicIdentity/TMLClassicIdentity/Views/Shared/Components/NavigatorButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2aWdhdG9yQnV0dG9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Уртём/source/repos/TMLClassicIdentity/TMLClassicIdentity/Views/Shared/Components/PageTitleBlock.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUGFnZVRpdGxlQmxvY2sucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Уртём/source/repos/TMLClassicIdentity/TMLClassicIdentity/Views/Shared/Components/ProfileIcon.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZmlsZUljb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Уртём/source/repos/TMLClassicIdentity/TMLClassicIdentity/Views/Shared/Components/SecurityIcon.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VjdXJpdHlJY29uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Уртём/source/repos/TMLClassicIdentity/TMLClassicIdentity/Views/Shared/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Уртём/source/repos/TMLClassicIdentity/TMLClassicIdentity/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Уртём/source/repos/TMLClassicIdentity/TMLClassicIdentity/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Уртём/source/repos/TMLClassicIdentity/TMLClassicIdentity/Views/Shared/_LayoutProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Уртём/source/repos/TMLClassicIdentity/TMLClassicIdentity/Views/Shared/_ValidationScriptsPartial.cshtml]

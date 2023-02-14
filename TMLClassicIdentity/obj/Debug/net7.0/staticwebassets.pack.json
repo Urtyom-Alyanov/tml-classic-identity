@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\TMLClassicIdentity.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\apps-tmlcid.svg",
+      "PackagePath": "staticwebassets\\apps-tmlcid.svg"
+    },
+    {
       "Id": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\css\\output.css",
       "PackagePath": "staticwebassets\\css\\output.css"
     },
@@ -19,6 +23,14 @@
     {
       "Id": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\profile-tmlcid.svg",
+      "PackagePath": "staticwebassets\\profile-tmlcid.svg"
+    },
+    {
+      "Id": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\security-tmlcid.svg",
+      "PackagePath": "staticwebassets\\security-tmlcid.svg"
     },
     {
       "Id": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\tml-identity.svg",

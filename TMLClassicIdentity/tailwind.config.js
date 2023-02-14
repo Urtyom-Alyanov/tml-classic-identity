@@ -10,6 +10,8 @@ module.exports = {
     plugins: [],
     content: [
         './Pages/**/*.cshtml',
-        './Views/**/*.cshtml'
+        './Views/**/*.cshtml',
+        './Pages/**/*.razor',
+        './Views/**/*.razor'
     ],
 }
