@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TMLClassicIdentity.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TMLClassicIdentity.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\css\\output.css",
+      "PackagePath": "staticwebassets\\css\\output.css"
+    },
+    {
+      "Id": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Уртём\\source\\repos\\TMLClassicIdentity\\TMLClassicIdentity\\wwwroot\\tml-identity.svg",
+      "PackagePath": "staticwebassets\\tml-identity.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TMLClassicIdentity.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TMLClassicIdentity.props",
+      "PackagePath": "build\\TMLClassicIdentity.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TMLClassicIdentity.props",
+      "PackagePath": "buildMultiTargeting\\TMLClassicIdentity.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TMLClassicIdentity.props",
+      "PackagePath": "buildTransitive\\TMLClassicIdentity.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

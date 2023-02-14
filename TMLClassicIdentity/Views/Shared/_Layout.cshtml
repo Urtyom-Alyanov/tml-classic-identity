@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>@ViewData["Title"] | TML Classic Identity</title>
+    <meta name="author" content="name" />
+    <meta name="description" content="description here" />
+    <meta name="keywords" content="keywords,here" />
+    <link rel="stylesheet" href="~/css/output.css" />
+</head>
+
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <nav id="header" class="fixed w-full z-10 top-0">
+        <div class="h-16 w-full bg-[#ffffffbb] shadow-sm">
+            <div class="mx-auto container gap-4 flex justify-between items-center backdrop-blur-sm h-full">
+                <div class="flex gap-4 items-center">
+                    <a aria-label="Вернуться в ТМЛ" class="hover:bg-[#e7def3] rounded-full p-2 text-[#571c86] px-4 duration-150 cursor-pointer" href="https://tml-classic.rivalpolitics.ru/">X</a>
+                    <img src="~/tml-identity.svg" alt="logotype" class="h-12 mt-3 w-auto" />
+                    <div class="bg-[#e7def3] rounded-full p-2 text-[#571c86] px-4 flex items-center justify-center">
+                        <div class="mb-1">
+                            milestone 1
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <a class="hover:bg-[#FFE9D5] rounded-full p-2 text-[#FF5630] px-4 duration-150 cursor-pointer">Выйти</a>
+                    <img src="https://sun1-14.userapi.com/s/v1/ig2/idu7DDPz8ZAoa00Ua2MasaTqj2my-hhIwfLmViy0FpmPcSWnC1vGA1Wjf7tjB9Y6tyId-c6vgdVDWU9_XmnHiiOA.jpg?size=200x200&quality=95&crop=0,152,800,800&ava=1" class="rounded-full h-10 w-10" />
+                </div>
+            </div>
+        </div>
+        <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, rgb(85, 37, 129) var(--scroll), transparent 0);"></div>
+    </nav>
+
+    <!--Container-->
+    <div class="container mx-auto mt-20">
+        @RenderBody()
+    </div>
+    <!--/container-->
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        /* Progress bar */
+        //Source: https://alligator.io/js/progress-bar-javascript-css-variables/
+        var h = document.documentElement,
+            b = document.body,
+            st = 'scrollTop',
+            sh = 'scrollHeight',
+            progress = document.querySelector('#progress'),
+            scroll;
+        var scrollpos = window.scrollY;
+        var header = document.getElementById("header");
+        var navcontent = document.getElementById("nav-content");
+
+        document.addEventListener('scroll', function () {
+
+            /*Refresh scroll % width*/
+            scroll = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100;
+            progress.style.setProperty('--scroll', scroll + '%');
+
+            /*Apply classes for slide in bar*/
+            scrollpos = window.scrollY;
+
+            if (scrollpos > 10) {
+                header.classList.add("bg-white");
+                header.classList.add("shadow");
+                navcontent.classList.remove("bg-gray-100");
+                navcontent.classList.add("bg-white");
+            } else {
+                header.classList.remove("bg-white");
+                header.classList.remove("shadow");
+                navcontent.classList.remove("bg-white");
+                navcontent.classList.add("bg-gray-100");
+
+            }
+
+        });
+
+
+        //Javascript to toggle the menu
+        document.getElementById('nav-toggle').onclick = function () {
+            document.getElementById("nav-content").classList.toggle("hidden");
+        }
+    </script>
+
+</body>
+
+</html>
